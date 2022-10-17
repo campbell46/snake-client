@@ -30,6 +30,15 @@ const handleUserInput = (data) => {
   case "s":
     connection.write("Move: down");
     break;
+  case "b":
+    connection.write("Say: Over here sucka!");
+    break;
+  case "n":
+    connection.write("Say: Dont eat me!");
+    break;
+  case "m":
+    connection.write("Say: Im gonna win dis!");
+    break;
   }
 };
 
