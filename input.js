@@ -1,5 +1,6 @@
 let connection;
 
+//setup input from user
 const setupInput = function(conn) {
   connection = conn;
 
@@ -13,6 +14,7 @@ const setupInput = function(conn) {
   return stdin;
 };
 
+//handle user input, move snake with w/a/s/d
 const handleUserInput = (data) => {
   switch (data) {
   case "\u0003":
